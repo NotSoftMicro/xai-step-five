@@ -1,4 +1,4 @@
-# STEP FIVE
+# STEP 5
 
 Elon's 5-step Algorithm as a live Grok agent for Standard Operating Procedures.
 
