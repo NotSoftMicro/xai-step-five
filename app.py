@@ -56,7 +56,7 @@ X% (conservative realistic estimate for an experienced user)
 One sentence.
 ### References
 List any external sources or references used in this optimization (e.g., URLs, books, articles). If none, say "None"."""
-st.markdown("<h1 style='text-align: center; margin-bottom: 5px; text-decoration: underline;'>STEP 5</h1>", unsafe_allow_html=True)
+st.markdown("<h1 style='text-align: center; margin-bottom: 5px; text-decoration: underline;'>STEP FIVE</h1>", unsafe_allow_html=True)
 st.markdown("<p style='text-align: center; font-size: 18px; margin-top: 0px;'>Apply Elon's Algorithm to any Standard Operating Procedure</p>", unsafe_allow_html=True)
 sop = st.text_area("", height=300, placeholder="Paste any SOP here (Example: Set up new hires with access and training...)")
 if st.button("Apply The Algorithm", type="primary"):
