@@ -1,3 +1,2 @@
 openai
 python-dotenv
-Commit with message "add dependencies"
