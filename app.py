@@ -17,7 +17,7 @@ client = openai.OpenAI(
     api_key=os.getenv("GROK_API_KEY"),
     base_url="https://api.x.ai/v1"
 )
-MODEL = "grok-4-1-fast-reasoning"
+MODEL = "grok-beta"
 MEMORY_FILE = "memory.json"
 if not os.path.exists(MEMORY_FILE):
     with open(MEMORY_FILE, "w") as f:
