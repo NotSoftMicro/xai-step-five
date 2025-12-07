@@ -1,14 +1,3 @@
-# Install the library when the script starts
-import subprocess
-import sys
-
-def install_package(package):
-    subprocess.check_call([sys.executable, "-m", "pip", "install", package])
-
-install_package('openai')
-
-import openai 
-# ... rest of your Streamlit code follows ...
 import streamlit as st
 import openai
 import json
